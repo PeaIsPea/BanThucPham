@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    background-color: #efefef;
+}
+
+.no-br-left {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+
+.no-br-right {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.min-height-100 {
+    min-height: 100vh;
+}
+
+.primary-background {
+    background-color: #00b050;
+}
+
+.mt-60 {
+    margin-top: 60px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.container-fluid h1,
+.container-fluid h2,
+.container h1,
+.container h2 {
+    font-size: 6vmin;
+    padding-top: 2vmin;
+    padding-bottom: 2vmin;
+}
+
+.logo {
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.intro-slide {
+    text-align: center;
+    width: 100%;
+    height: 560px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Product */
+.product-img {
+    display: inline-block;
+    height: 260px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.category-list {
+    margin-bottom: -60px;
+    background: #00b050cc;
+}
+
+/* Supplier */
+.supplier .supplier {
+    padding: 10vmin 4vmin;
+}
+
+.supplier .card {
+    width: 22em;
+    margin-top: 4vmin;
+}
+
+.supplier img {
+    display: inline-block;
+    width: 320px;
+    height: 320px;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.supplier .card .card-text {
+    padding: 0.5em;
+}
+
+.supplier .card-body > a {
+    font-size: 1.1em;
+}
+
+.supplier .carousel-item {
+    padding-left: 3rem;
+}
+
+/* Footer */
+.footer {
+    overflow-x: hidden;
+    padding: 8vmin 18vmin;
+    clear: both;
+}
+
+.footer input::placeholder {
+    color: white !important;
+}
+
+.footer .column a {
+    color: white;
+}
+
+.footer .column a + a {
+    padding: 0 8px;
+}
+
+/* Login */
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+.h-custom {
+    height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+    .h-custom {
+        height: 100%;
+    }
+}
